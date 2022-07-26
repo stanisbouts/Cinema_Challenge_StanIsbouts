@@ -1,0 +1,19 @@
+{
+  "name": "cinema_challenge_stanisbouts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanisbouts/Cinema_Challenge_StanIsbouts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanisbouts/Cinema_Challenge_StanIsbouts/issues"
+  },
+  "homepage": "https://github.com/stanisbouts/Cinema_Challenge_StanIsbouts#readme"
+}

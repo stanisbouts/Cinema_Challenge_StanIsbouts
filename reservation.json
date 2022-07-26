@@ -1,0 +1,39 @@
+{
+	"Movies": [{
+			"name": "Thor: Love and Thunder",
+            
+			"Reservations": [{
+                "date": "",
+                "amount": 7
+			},{
+                "date": "",
+                "amount": 5
+			}]
+		},
+		{
+			"name": "Minions",
+			"Reservations": [{
+                "date": "",
+                "amount": 2
+            },{
+                "date": "",
+                "amount": 3
+            }]
+		},
+		{
+			"name": "Bon Bini Holland 3",
+			"Reservations": [{
+                "date": "",
+                "amount": 30
+			}]
+		},
+		{
+			"name": "Top Gun",
+			"Reservations": [{
+                "date": "",
+                "amount": 25
+			}]
+		}
+	]
+
+}

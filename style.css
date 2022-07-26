@@ -1,0 +1,48 @@
+#MainHeading {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+* {
+    font-size: 100%;
+    font-family: Verdana;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+#Name {
+    align-self: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#List {
+    align-self: center;
+    display: flex;
+}
+
+.MovieList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chair {
+    border: 1px solid #000;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.free {
+    background-color: green;
+}
+
+.occupied {
+    background-color: red;
+}

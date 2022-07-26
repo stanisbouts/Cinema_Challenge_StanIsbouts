@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bluebird Day Cinema</h1>
+    <p> Welkom bij de Bluebird Day cinema!</p>
+
+    <script type="module" src="chairs.js"></script>
+    
+    <div id="Lists" class="MovieList"></div>
+
+
+    <h2>Reservering</h2>
+    <label for="date">Datum:</label><br>
+    <input type="date" id="date" name="trip-start"
+       value="2022-07-26"
+       min="2022-07-26" max="2023-11-01">
+    <br>
+
+    <label for="amount">Aantal personen:</label><br>
+    <input type="number" id="amount" value="0"><br>
+
+    <label for="lmovie">Movie:</label><br>
+    <select id = "movie_list">  
+        <option> ---Choose Movie--- </option>  
+        </select>
+    <br>
+
+    <button type="button" id="reserve">Reserveer!</button>
+    
+        
+
+</body>
+ 
+
+<template id="chair">
+    <p id="seat_number" class="chair"> </p>
+</template>
+
+
+
+
+</html>
+
+
